@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>discord_bot_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="discord_bot_icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Net.Core" Version="3.19.1" />
+    <PackageReference Include="Discord.Net.WebSocket" Version="3.19.1" />
+    <PackageReference Include="Google.GenAI" Version="1.6.1" />
+  </ItemGroup>
+
+</Project>
